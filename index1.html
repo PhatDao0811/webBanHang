@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index1.css">
+        <script>
+            function fnhello(){
+                alert("hello world!");
+            }
+        </script>
+
+    </head>
+    <body>
+        <fieldset>
+            <legend class="abc1">Thông tin accout</legend>
+            <div>
+                <label for="name">Tên</label>
+                <input type="text" name="uesrname" id="name" required placeholder="Nhập Tên">
+            </div>
+            <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Nhập Email">
+        </div>
+        </fieldset>
+        <div style="text-align: left;"> What your gentle
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" name="gentle" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gentle" id="female">
+            <label for="other">other</label>
+            <input type="radio" name="gentle" id="other">
+        </div>
+        <div>
+            <select name="subject" id="">
+            <option value="a" selected>a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+        </select>
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="text here" ></textarea>
+
+        <div>
+            <ul>List
+                <li style="color: rgb(130, 36, 108);">1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+        <div>
+            <ol> List 2
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ol>
+        </div>
+        <table>
+            <tr>
+                <th>Số tiết</th>
+                <th>T2</th>
+                <th>T3</th>
+                <th>T4</th>
+                <th>T5</th>
+                <th>T6</th>
+                <th>T7</th>
+                <th>CN</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>toán</td>
+                <td>văn</td>
+                <td>anh</td>
+                <td>lý</td>
+                <td>hóa</td>
+                <td>sinh</td>
+                <td>Địa</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+                <td>e</td>
+                <td>f</td>
+                <td>g</td>
+            </tr>
+        </table>
+        <hr>
+        <br>
+        <table class="table1">
+            <tr>
+                <th class="a1" colspan="7";
+                >KẾ HOẠCH ĐÀO TẠO</th>
+            </tr>
+            <tr>
+                <th class="tieude" rowspan="2">Stt</th>
+                <th class="tieude" rowspan="2">Tên môn</th>
+                <th class="a1" colspan="2">Số tiết</th>
+                <th class="tieude" rowspan="2">HK1</th>
+                <th class="tieude" rowspan="2">HK2</th>
+                <th class="tieude" rowspan="2">Ghi chú</th>
+            </tr>
+            <tr>
+                <th class="tieude">LT</th>
+                <th class="tieude">TH</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th class="abcd">Chính trị</th>
+                <th>30</th>
+                <th>30</th>
+                <th>x</th>
+                <th> </th>
+                <th rowspan="2">2 tuần đầu HK</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th class="abcd">Thể dục</th>
+                <th>10</th>
+                <th>30</th>
+                <th> </th>
+                <th>x</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th class="abcd">Anh văn</th>
+                <th>90</th>
+                <th>0</th>
+                <th>x</th>
+                <th> </th>
+                <th rowspan="3">15 tuần</th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th class="abcd">Tin học</th>
+                <th>30</th>
+                <th>60</th>
+                <th>x</th>
+                <th> </th>
+            </tr>
+            <tr>
+                <th>5</th>
+                <th class="abcd">Toán</th>
+                <th>60</th>
+                <th>30</th>
+                <th> </th>
+                <th>x</th>
+            </tr>
+        </table>
+       <form>
+        <div>
+            <h3>Mô tả kinh nghiệm đầu tư của bạn</h4>
+            <input type="radio" name="kinh nghiệm" id="Mới vào nghề"> <label for="kinh nghiệm">Mới vào nghề</label>
+            <input type="radio" name="kinh nghiệm" id="Hạng trung"> <label for="kinh nghiệm">Hạng trung</label>
+            <input type="radio" name="kinh nghiệm" id="Chuyên gia"> <label for="kinh nghiệm">Chuyên gia</label>
+        </div>
+        <div>
+            <h3>Hình thức đàu tư của bạn</h4>
+            <input type="checkbox" id="a"> <label for="a">Ngắn hạn</label>
+            <input type="checkbox" id="b"> <label for="b">Dài hạn</label>
+            <input type="checkbox" id="c"> <label for="c">Tùy cơ ứng biến</label>
+        </div>
+        <div>
+            <h3>Chứng khoáng nào bạn quan tâm nhất năm nay</h4>
+            <input type="text">
+        </div>
+        <div>
+            <br>
+            <p></p>
+            <input type="submit" value="Chấp nhận">
+            <input type="reset" value="Nhập lại">
+        </div>
+       </form>
+    </body>
+</html>

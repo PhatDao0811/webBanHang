@@ -1,0 +1,30 @@
+*{
+    font-family:'Times New Roman';
+
+}
+.abc1
+{
+    color: red;
+}
+table{
+    width: 100%;
+}
+table,th,tr,td{
+    border: solid 2px;
+    border-color: red;
+    text-align: center;
+    margin: 2.5px;
+}
+.tr2{
+    color: red;
+}
+.tieude{
+    background-color: rgb(158, 156, 156);
+}
+.a1{
+    text-align: left;
+    background-color: rgb(158, 156, 156);
+}
+.abcd{
+    text-align: left;
+}
